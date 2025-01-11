@@ -7,7 +7,7 @@
 #define MAX_TASKS 10
 #define MAX_DESC_LENGTH 100
 
-typedef struct todolist
+typedef struct
 {   
     int id;
     char description[MAX_DESC_LENGTH];
