@@ -13,7 +13,12 @@ typedef struct
     char description[MAX_DESC_LENGTH];
     bool is_completed;
 
-}TodoItem;
+}TodoTask;
+
+
+TodoTask tasks[MAX_TASKS];
+
+
 
 
 
