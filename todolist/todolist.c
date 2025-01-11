@@ -13,7 +13,7 @@ typedef struct todolist
     char description[MAX_DESC_LENGTH];
     bool is_completed;
 
-}TODOITEM;
+}TodoItem;
 
 
 
